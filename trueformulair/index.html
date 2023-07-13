@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in & Sign up Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="easyclass" />
+                <h4>BM play</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Welcome</h2>
+                <h6>Not registred yet?</h6>
+                <a href="#" class="toggle">Sign up</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap"> 
+                    <!-- input du nom -->
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label> <ion-icon name="person-outline"></ion-icon>  Name</label>
+                </div>
+
+                <div class="input-wrap">
+                    <!-- input du mot de passe -->
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label> <ion-icon name="lock-closed-outline"></ion-icon>  Password</label>
+                </div>
+                <!-- botton envoyer de la page de connection -->
+
+                <input type="submit" value="Sign In" class="sign-btn" />
+
+                <p class="text">
+                  Forgotten your password or you login datails?
+                  <a href="#">
+                    <!-- ici le lien pour l'aide si l'uitilisateur a oublier sin mot de passe -->
+                    Get help</a> signing in
+                </p>
+              </div>
+            </form>
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="easyclass" />
+                <h4>BM play</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Get Started</h2>
+                <h6>Already have an account?</h6>
+                <a href="#" class="toggle">Sign in</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label> <ion-icon name="person-outline"></ion-icon> Name</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label><ion-icon name="mail-outline"></ion-icon>  Email </label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label> <ion-icon name="lock-closed-outline"></ion-icon> Password</label>
+                </div>
+
+                <div class="input-wrap">
+                    <input
+                      type="tel"
+                      minlength="4"
+                      class="input-field"
+                      autocomplete="off"
+                      required
+                    />
+                    <label> <ion-icon name="phone-portrait-outline"></ion-icon> phone</label>
+                  </div>
+
+                <div class="input-wrap">
+                    <input type="checkbox" cl id="remenber" required autocomplete="off">
+                    <label class="moyen"  for="remenber"> i accept the Privacy Policy <a href="">see</a></label>
+                    
+                  </div>
+                  <div class="input-wrap">
+                    <input  type="checkbox" id="age" required autocomplete="off">
+                    <label class="moyen" for="age">i'm over 18 years old</label>
+                    
+                  </div>
+                
+
+
+                <input type="submit" value="Sign Up" class="sign-btn" >
+
+                <p class="text">
+                  By signing up, I agree to the
+                  <a href="#">Terms of Services</a> and
+                  <a href="#">Privacy Policy</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image1.png" class="image img-1 show" alt="" />
+              <img src="./img/image2.png" class="image img-2" alt="" />
+              <img src="./img/image3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>create an account BM play</h2>
+                  <h2>play online and earn money</h2>
+                  <h2> join a community</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="apps.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div id="page" class="site">
+        <div class="container">
+            <div class="wrapper">
+                <div class="login">
+                    <div class="content-heading">
+                        <div class="y-style">
+                            <div class="logo"><a href="#">.web<span>desing</span></a></div>
+                            <div class="welcome">
+                                <h2>connexion</h2>
+                                <p>connecter vous a votre compte</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-form">
+                        <div class="y-style">
+                            <form action="">
+                                <p>
+                                    <label for="">NOM COMPLET</label>
+                                    <input type="text" placeholder="entrer votre nom complet">
+                                    <p></p>
+                                </p>
+
+                                <p>
+                                    <label for="">EMAIL</label>
+                                    <input type="email" placeholder="entrer votre EMAIL">
+                                    <p></p>
+                                </p>
+
+                                <p class="forgot"><a href="#">mot de passe oublier</a></p>
+                                <p><input type="submit" class="btn" value="se connecter"></p>
+                            </form>
+                            <div class="afterfrom">
+                                <p>je n'ais pas de compte</p>
+                                <a href="#" class="t-signup">s'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+
+
+
+
+
+
+                <div class="signup">
+                    <div class="content-heading">
+                        <div class="y-style">
+                            <div class="logo"><a href="#">.web<span>desing</span></a></div>
+                            <div class="welcome">
+                                <h2>s'inscrire maintenant</h2>
+                                <p>commencer a cree un compte</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-form">
+                        <div class="y-style">
+                            <form action="">
+                                <p>
+                                    <label for="">NOM COMPLET</label>
+                                    <input type="text" placeholder="entrer votre nom complet">
+                                    <p></p>
+                                </p>
+
+                                <p>
+                                    <label for="">EMAIL</label>
+                                    <input type="email" placeholder="entrer votre EMAIL">
+                                    <p></p>
+                                </p>
+
+                                <p>
+                                    <label for="">mot de passe</label>
+                                    <input type="text" placeholder="entrer un mot de passe">
+                                    <p></p>
+                                </p>
+
+                                <p>
+                                    <label for="">telephone</label>
+                                    <input type="tel" placeholder="entrer votre numero de teleph...">
+                                    <p></p>
+                                </p>
+
+                                <p class="check">
+                                    <input type="checkbox" id="remenber">
+                                    <label for="remenber"> j'accept la politique de l'entreprise <a href="">voir la politique de confidencialiter</a></label>
+                                    
+                                    <p></p>
+                                </p>
+
+                                <p class="check">
+                                    <input type="checkbox" id="age">
+                                    <label for="age"> j'ai plus de 18ans</label>
+                                </p>
+                                <p><input type="submit" value="s'inscrire"></p>
+                            </form>
+
+                            <div class="social">
+                                <p><span>s'inscrire avec </span></p>
+                                <ul>
+                                    <li><a href="#" class="google" ><ion-icon name="logo-google"></ion-icon></a></li>
+                                    <li><a href="#" class="facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                </ul>
+
+                            </div>
+                            <div class="afterfrom">
+                                <p>j'ai deja un compte</p>
+                                <a href="#" class="t-signup">se connecter</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="apps.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html> 
